@@ -1,0 +1,25 @@
+{
+  "name": "accelerator-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "db:schema": "node ./dbSchema.js",
+    "db:seed": "node ./dbSeed.js",
+    "db:reset": "node ./dbReset.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeboyle/accelerator-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeboyle/accelerator-scripts/issues"
+  },
+  "homepage": "https://github.com/mikeboyle/accelerator-scripts#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
