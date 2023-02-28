@@ -18,4 +18,4 @@ CREATE TABLE grades (
     score integer DEFAULT 0
 );
 
-CREATE INDEX grades_fkey ON grades(student_id int4_ops);
+CREATE INDEX grades_student_id ON grades(student_id);
